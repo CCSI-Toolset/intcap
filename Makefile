@@ -1,5 +1,5 @@
 # A simple makefile for creating the MEA dynamic model distribution tarball
-VERSION    := 2015.10.00
+VERSION    := `git describe --tags`
 PRODUCT    := Integration Capture Systems Model
 PROD_SNAME := IntCap
 LICENSE    := CCSI_TE_LICENSE_$(PROD_SNAME).txt

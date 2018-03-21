@@ -1,9 +1,20 @@
-# intcap
+# IntCap
 Integrated Capture Systems Model
 
-## Development Practices
+Note: This product is also part of the [Process Models Bundle](../../../ProcessModels_bundle)
 
-* Code development will be peformed in a forked copy of the repo. Commits will not be 
+## Getting Started
+See installation and user guide documents in the [documentation](./docs) subdirectory.
+
+## Authors
+
+* Ben Omell
+* Debangsu Bhattacharyya
+
+See also the list of [contributors](../..//contributors) who participated in this project.
+
+## Development Practices
+* Code development will be performed in a forked copy of the repo. Commits will not be 
   made directly to the repo. Developers will submit a pull request that is then merged
   by another team member, if another team member is available.
 * Each pull request should contain only related modifications to a feature or bug fix.  
@@ -11,22 +22,9 @@ Integrated Capture Systems Model
   (e.g database host port) should not be checked in to the repo.
 * A practice of rebasing with the main repo should be used rather that merge commmits.
 
-## Getting Started
-
-TBD
-
-## Authors
-
-* Ben Omell
-* Debangsu Bhattacharyya
-
-See also the list of [contributors](https://github.com/CCSI-Toolset/intcap/contributors) who participated in this project.
-
 ## Versioning
-
 We use [SemVer](http://semver.org/) for versioning. For the versions available, 
-see the [tags on this repository](https://github.com/CCSI-Toolset/intcap/tags). 
+see the [releases](../../releases) or [tags](../../tags) for this repository. 
 
 ## License & Copyright
-
 See [LICENSE.md](LICENSE.md) file for details
